@@ -1,0 +1,77 @@
+body{
+	margin:0;
+	padding:20px;  /*这个padding使得body四边离*/
+	font-family: "微软雅黑";
+	font-size: 15px;
+}
+
+#main{
+	padding:20px;
+	background-color: #EEE;
+	border: 1px solid #999;
+	overflow: hidden;
+	min-width: 800px;
+	min-height: 420px;
+}
+
+.left{
+	padding:20px;
+	width: 160px;
+	background-color: #fff;
+	border: 1px solid #999;
+	float: left;
+}
+
+.left img{
+	width:80px;
+	float: left;
+}
+
+.team_name{
+  	width: 180px;
+ 	font-size: 13px;
+  	font-weight: bold;
+	text-align: center;
+}
+
+.middle{
+	margin:0 140px 0 220px;
+	background-color: #fff;
+	border: 1px solid #999;
+	overflow:auto;
+	padding:20px;
+}
+
+.right{
+  	width: 120px;
+  	height:420px;
+  	background: #fff;
+  	border: 1px solid #999;
+  	position: absolute;
+  	top: 40px;
+  	right: 40px;
+}
+/*如果在main中设置margin:0 auto，那么main部分会自适应right部分
+结束的位置，但是right部分会显示在middle下方一行，也就是说这二
+者是以块级元素排列的。
+
+如果right部分设置绝对定位则可以使得right部分排列在middle部分右
+侧，但这样的话main背景部分无法自适应高度，
+
+已实践得知以上问题无法同时设置这两个属性，那么这个问题应该如何
+解决呢？*/
+
+.right img{
+	background: #fff;
+  	display: block;
+  	margin:0 auto;
+  	border: 1px solid #999;
+  	width:80px;
+  	margin:20px;
+}
+
+
+
+
+
+
