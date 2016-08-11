@@ -1,0 +1,194 @@
+@charset"utf-8"
+body{
+	margin:0;
+	padding:0;
+	border: 0; 
+	outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+	vertical-align: baseline; 
+}
+
+#header{
+	background-color:#333333;
+	height: 70px;
+	margin: -20px;
+}
+
+#header.header_logo{
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-left: 20px;
+	border-left: 20px;
+}
+
+#header .header_nav{
+	float: right;
+	height: 50px;
+	margin-top: -40px;
+}
+
+#header .header_logo img{
+	height: 59px;
+	width:168px;
+	margin: 10px;
+/*此处图片应根据实际大小设置宽高*/
+}
+
+#header .header_nav li{             
+/*此处选择器每个等级之间都要有空格，否则无法显示*/
+	display: inline-block;
+	font-size: 12px;
+	float: left;
+	margin: 0 10px 5px;
+	position:relative;
+	right: 5px;
+	top:-30px;
+}
+
+#header .header_nav a:link{
+	text-decoration: none;
+	color: white;
+}
+
+#header .header_nav a:visited{
+	text-decoration: none;
+	color: white;
+}
+#header .header_nav a:hover{
+	text-decoration: none;
+	color: #F1B4C3;
+}
+#header .header_nav a.active{
+	text-decoration: none;
+	color: gray;
+}
+
+#passage_body{                   
+	background-color: #DCDCDC;/*此处不能只写color：，因为会将文本全部显示为该颜色*/
+	margin: 0;
+	float:left;
+
+}
+
+#passage_body .passage{
+	background-color: white;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow:3px 3px 3px #333;
+}
+.passage h2{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	font-size: 26px;
+	font-weight: 600;
+}
+
+.passage h3{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: :40px;
+	font-size: 18px;
+	font-weight: 600;
+	color:#878586;
+}
+
+.passage_info{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+}
+
+.passage p{
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: normal;
+	text-indent: 30px;
+}
+.passage ul li{
+	list-style-type: none;
+	text-align: left;
+	font-family: "Microsoft Yahei" ;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 600;
+	text-indent: 10px;
+}
+
+.passage table{
+	border:1px solid white;
+	width: 100%;
+	border-spacing: 0;
+}
+
+.tablehead{
+	background-color: black;
+	border: 1px solid #333333;
+	color:white;
+}
+
+.passage tr td{
+	border:1px solid #DCDCDC;
+}
+
+.passage tr .tablesum{
+	background-color: #DCDCDC;
+	border:1px solid#CCCCCC;
+}
+
+#sidebar{
+	float:left;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+.sidebar_content{
+	background-color: white;
+	padding:20px;
+}
+
+.inp{
+	display: :block;
+	margin:20px;
+	text-align:center;
+}
+
+.inp .buttonset input{
+	width: 100%;
+	background-color: #3355D0;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color:#FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+	font-weight: bold;
+}
+/*这里无法实现效果图效果，存疑*/
+.inp p{
+	color:gray;
+}
+
+.tip{
+	height: 25px;
+	text-align: center;
+	float: center;
+}
+
+
+
+
+
+
+
+
