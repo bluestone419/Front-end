@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>任务三</title>
+	<link rel="stylesheet" type="text/css" href="style/task-3.css">
+</head>
+<body>
+	<div id="main">
+	<!-- 先设置一个主题main，然后在里面设置左中右三个块 -->
+		<div class="left">
+				<img src="images/1.png">
+			<div class="team_name">
+				蓝色宝石团队
+			</div>
+		</div>
+		<div class="middle">
+			<h2>蓝色宝石团队</h2>
+			<h3>团队介绍</h3>
+			<p> 蓝色宝石团队来自湖南
+			</p>
+			<h3>队员介绍</h3>
+			<p>
+			队长蓝色宝石是个前端爱好者，而且长得很帅哦
+			</p>
+		</div>
+		<div class="right">
+			<img src="images/2.png">
+			<img src="images/3.png">
+			<img src="images/4.png">
+			<img src="images/5.png">
+			<!-- 根据效果图，这里不需要使用ul无序列表，否则图片显示出来的时候会有一个圆点的空位无法填满 -->
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
