@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>任务二</title>
+	<link rel="stylesheet" type="text/css" href="style/task-2.css">
+</head>
+<body>
+	<div id="header"> 
+	<!-- 头部id -->
+		<div class="header_logo">
+		<!-- 头部class -->
+			<img src="images/logo.png">
+		</div>
+		<!-- 头部logo的class结束 -->
+		<div class="header_nav">
+			<ul>
+				<li><a href="">导航链接一</a></li>
+				<li><a href="">导航链接二</a></li>
+				<li><a href="">导航链接三</a></li>
+				<li><a href="">导航链接四</a></li>
+			</ul>
+		</div>
+			<!-- 头部导航栏class结束 -->
+	</div>
+    <!-- 头部id结束 -->
+    <div id="passage_body">
+    <!-- 主体部分id，下面分为4个class，根据效果图，每个class的名字都是一样的，p的名字也是一样的，这样方便css文件中统一设置样式 -->
+    	<div class="passage">
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="passage_info">苏东坡传&nbsp&nbsp&nbsp&nbsp林语堂</p>
+			<p>苏东坡已死，他的名字只是一个记忆。但是他留给我们的，是他那心灵的喜悦，是他那思想的快乐，这才是万古不朽的。<br />
+			灵魂之自在确与身体之自在有关联。人若不能控制身心，便不能控制灵魂。<br />
+			苏东坡今生的浩然之气用尽。人的生活也就是心灵的生活，这种力量形成人的事业人品，与生命俱来，由生活中之遭遇而显示其形态。正如<a href="http://ife.baidu.com">苏东坡</a>在潮州韩文公庙碑中所说：“浩然之气、不依形而立，不恃力而行，不待生而存，不随死而亡矣，故在天为星辰，在地为河狱，幽则为鬼神，而明则复为人。<strong>此理之常，无足怪者</strong>。”<br />
+			<img src="images/littlegirl.jpg" width="230" height="345"><br /><!-- 此处无法显示图片，这是为什么呢？ -->
+			归根结底，我们只能知道自己真正了解的人，我们只能完全了解我们真正喜爱的人。<br />
+			苏东坡是大事聪明，小事糊涂。但构成人生的往往是许多小事，大事则少而经久不见<br /> 
+			西湖的诗情画意，非苏东坡的诗思不足以极其妙；<strong>苏东坡</strong>的诗思，非遇西湖的诗情画意不足以尽其才。一个城市，能得<a href="http://ife.baidu.com" target="_blank">诗人</a>发现其生活上复杂的地方性，并不容易；而诗人能在寥寥四行诗句中表现此地的精粹、气象、美丽，也颇不简单。
+			</p>
+		</div>  
+		<!-- 第一部分 -->
+		<!-- sublime text中注释用ctrl+?选中需要注释的地方即可 -->
+		<div class="passage">
+			<h2>另一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="passage_info">追风筝的人&nbsp&nbsp&nbsp&nbsp卡勒德·胡赛尼</p>
+			<p>时间很贪婪——有时候，它会独自吞噬所有的细节。<br />
+			许多年过去了，人们说<a href="http://ife.baidu.com">陈年旧事</a>可以被埋葬，然而我终于明白这是错的，因为往事会自行爬上来。<br />
+			我们总喜欢给自己找很多理由去解释自己的懦弱，总是自欺欺人的去相信那些<strong>美丽的谎言</strong>，总是去掩饰自己内心的恐惧，总是去逃避自己犯下的罪行。但事实总是，有一天，我们不得不坦然面对那些罪恶，给自己心灵予救赎。<br />
+			</p>
+			<img src="images/littlegirl.jpg" width="230" height="345">
+			<h2>图片</h2>
+			<ul>
+				<li>项目列表一</li>
+				<li>项目列表二</li>
+				<li>项目列表三</li>
+			</ul>
+			<ul>
+				<li>Hello<br /><img src="images/littlegirl.jpg" width="230" height="345"></li>
+				<li>Hello<br /><img src="images/littlegirl.jpg" width="230" height="345"></li>
+				<li>Hello<br /><img src="images/littlegirl.jpg" width="230" height="345"></li>
+				<li>Hello<br /><img src="images/littlegirl.jpg" width="230" height="345"></li>
+			</ul>
+		</div>
+		<!-- 第二部分 -->
+		<div class="passage">
+			<h2>最后一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<p class="passage_info">平凡的世界&nbsp&nbsp&nbsp&nbsp路遥</p>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格，给表格加了一个“border=1”好让你看出是一个表格</p>
+			<table border="1">
+				<tr>
+					<td class="tablehead">表头</td><td class="tablehead">表头</td><td class="tablehead">表头</td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td><td>表内容单元格</td><td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td class = "tablesum">总计</td><td colspan="2" class = "tablesum">1000</td>
+				</tr>
+				<!-- 这里的colspan是一行可以横跨的列的数目 -->
+			</table>
+		</div>
+		<!-- 第三部分 -->
+	</div>
+		
+	<div id="sidebar">
+		<div class="sidebar_content">
+			<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+			<h3>侧栏注册窗口标题</h3>
+			<form>
+				<div class="inp">
+					<label>请输入邮箱地址：</label>
+					<input type="text" name="email">
+				</div>
+				<div class="tip">
+					<p>邮箱地址请按要求格式输入</p><!--按照效果图，这里tiP是提示性文本，而inp是提示内容后面接表单表格等等-->
+				</div>
+			</form>
+			<form>
+				<div class="inp">
+					<label for="pwd">请输入密码：</label>
+					<input type="password" name="pass1">
+					<label for="pwd">请重复输入密码：</label>
+					<input type="password" name="pass2">
+				</div>
+				<div class="tip">
+					<p>密码请为6-16位英文数字</p>
+				</div>
+			</form>
+			<form>
+				<div class="inp">
+					<label>性别：</label>
+					<input type="radio" checked="checked" value="male" name="sex">男
+					<input type="radio" value="female" name="sex">女
+				</div>
+				<div class="inp">
+					<label>城市：</label>
+					<select name="city">
+						<option value="beijing" selected="selected">北京</option>
+						<option value="shanghai" >上海</option>
+						<option value="guangzhou" >广州</option>			
+					</select>
+				</div>
+				<div class="inp">
+					<label>爱好：</label>
+					<input type="checkbox" name="sport">运动
+					<input type="checkbox" name="art">艺术
+					<input type="checkbox" name="science">科学
+				</div>
+				<div class="inp">
+					<label>个人描述：</label>
+					<textarea rows="1" cols="24">这是一个多行输入框，输入您的个人描述</textarea>
+				</div>
+				<div class="inp">
+					<div class="buttonset">	
+						<input type="submit" name="makesure" value="确认提交">
+					</div>
+				</div>
+			</form>
+			<!-- 这里的label是触发控件的作用，同时也可以作为排版使用，即将同一form标签下的label用于同一行，另外注意input的用法 -->
+		</div>
+	</div>
+	<!-- 第四部分 -->
+	<div id="footer">
+	</div>
+</body>
+</html>
